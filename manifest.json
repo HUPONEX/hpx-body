@@ -1,0 +1,22 @@
+{
+  "snaponyx_version": "2.0",
+  "urn": "ot.hpx.runtime.body.001",
+  "legacy_urn": "tel.onyx.hpx.runtime.body.001",
+  "namespace": "ot.hpx.runtime.body.001",
+  "app_name": "HUPONEX BODY v1.0.0 (Cordis / dsh Execution Chassis)",
+  "version": "1.0.0",
+  "developer": "Human Positive Nexus (HUPONEX)",
+  "execution_mode": "go_module_chassis",
+  "event_bus": {
+    "publishes": [
+      "os.body.state",
+      "os.beat.gate.requested",
+      "os.agent.inference",
+      "os.agent.tool"
+    ],
+    "subscribes": [
+      "tel.onyx.killswitch.>",
+      "tel.onyx.tactonyx.decision"
+    ]
+  }
+}
